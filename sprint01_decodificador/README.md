@@ -9,7 +9,7 @@ Esta é a Sprint 01 do Challenge ONE
 
 Sprint 01: Construa um decodificador de texto com Javascript
 
-As "chaves" de criptografia que utilizaremos são:
+As "chaves" de criptografia que utilizaremos são:<br>
 A letra "e" é convertida para "enter"<br>
 A letra "i" é convertida para "imes"<br>
 A letra "a" é convertida para "ai"<br>
