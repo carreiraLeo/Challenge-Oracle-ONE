@@ -10,18 +10,18 @@ Esta é a Sprint 01 do Challenge ONE
 Sprint 01: Construa um decodificador de texto com Javascript
 
 As "chaves" de criptografia que utilizaremos são:
-'A letra "e" é convertida para "enter"'
-'A letra "i" é convertida para "imes"'
-'A letra "a" é convertida para "ai"'
-'A letra "o" é convertida para "ober"'
-'A letra "u" é convertida para "ufat"'
+A letra "e" é convertida para "enter"<br>
+A letra "i" é convertida para "imes"<br>
+A letra "a" é convertida para "ai"<br>
+A letra "o" é convertida para "ober"<br>
+A letra "u" é convertida para "ufat"<br>
 
 ## 🚀 Funcionalidade
 
-Insira o texto desejado onde se pede;
+Insira o texto desejado onde se pede;<br>
 Escolha se deseja criptografar ou descriptografar o texto;
 
 Exemplo:
 
-'oracle + alura' --> 'oberraiclenter + ailufatrai' [Criptografar]
-'oberraiclenter + ailufatrai' --> 'oracle + alura' [Descriptografar]
+'oracle + alura' --> 'oberraiclenter + ailufatrai' [Criptografar]<br>
+'oberraiclenter + ailufatrai' --> 'oracle + alura' [Descriptografar]<br>
