@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Decodificador</title>
+  <link rel="icon" href="imagens/icone.ico">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="imagens/logoAlura.svg" alt="Logo da Alura">
+  </header>
+  <main>
+    <section class="input">
+      <div>
+        <textarea placeholder="Digite seu texto"></textarea>
+      </div>
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+          class="bi bi-exclamation-circle-fill" viewBox="0 0 16 16">
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
+        </svg>
+        Apenas letras minúsculas e sem acento.
+      </p>
+      <div>
+        <button onclick="btnCriptografar()">Criptografar</button>
+        <button onclick="btnDesriptografar()">Descriptografar</button>
+      </div>
+    </section>
+    <section class="output">
+      <textarea></textarea>
+      <div class="noOutput">
+        <img src="imagens/boneco.svg">
+        <textarea class="msgNoOutput">Nenhuma mensagem encontrada</textarea>
+        <textarea class="msgNoOutput2">Digite um texto que você deseja criptografar ou descriptografar.</textarea>
+      </div>
+      <button onclick="copy()">Copiar</button>
+    </section>
+  </main>
+  <footer>
+    <a href="https://github.com/carreiraLeo">
+      <img src="imagens/github.svg" alt="Icone Github" title="Github do Desenvolvedor">
+    </a>
+    <a href="https://www.linkedin.com/in/carreiraleo/">
+      <img src="imagens/linkedin.svg" alt="Icone Linkedin" title="Linkedin do Desenvolvedor">
+    </a>
+    <a href="https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=2%3A213">
+      <img src="imagens/icons8-figma.svg" alt="Icone Figma" title="Figma do projeto - Alura Challenge">
+    </a>
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
